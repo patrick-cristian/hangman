@@ -14,7 +14,7 @@ lives = 6
 for _ in chosen_word:
     display.append('_')
 
-# Checking wheter we exit the game by finding the word or by losing all out lives
+# Checking whether we exit the game by finding the word or by losing all out lives
 while display.count('_') and lives > 0:
 
     # Ask user for a letter
